@@ -120,6 +120,14 @@
   --bs-form-invalid-color: #ff4c51;
   --bs-form-invalid-border-color: #ff4c51;
 }
+@font-face {
+  font-family: 'myFont';
+  src: url(../../fonts/GE_SS_Two_Bold.otf);
+}
+@font-face {
+  font-family: 'myFont2';
+  src: url(../../fonts/DroidKufi-Regular.ttf);
+}
 
 *,
 *::before,
@@ -163,6 +171,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 500;
   line-height: 1.37;
   color: var(--bs-heading-color);
+  font-family: 'myFont' !important;
+}
+p ,span, label, a {
+  font-family: 'myFont2' !important;
 }
 
 h1, .h1 {
