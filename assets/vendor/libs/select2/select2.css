@@ -132,13 +132,13 @@
   padding: 0.543rem 1rem;
 }
 .select2-results__option[role=option][aria-selected=true] {
-  background-color: #eea8a4;
+  background-color: #8e7b39;
   color: #fff;
 }
 
 .select2-container--default .select2-results__option--highlighted:not([aria-selected=true]) {
   background-color: rgba(115, 103, 240, 0.16) !important;
-  color: #eea8a4 !important;
+  color: #8e7b39 !important;
 }
 
 .select2-hidden-accessible {
